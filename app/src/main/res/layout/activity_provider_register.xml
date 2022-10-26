@@ -4,45 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AuthActivity">
+    tools:context=".ProviderRegister">
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_height="729dp"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="1dp">
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
 
         <EditText
-            android:id="@+id/emailEditText"
+            android:id="@+id/editTextEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Email"
+            android:hint="Correo Electronico"
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/passwordEditText"
+            android:id="@+id/editTextPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Contraseña"
-            android:inputType="textPassword" />
+            android:hint="Numero celular"
+            android:inputType="phone" />
 
-        <Button
-            android:id="@+id/signInButton"
+        <EditText
+            android:id="@+id/editTextPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Acceder" />
+            android:ems="10"
+            android:hint="Nombre personal"
+            android:inputType="textPersonName" />
 
-        <Button
-            android:id="@+id/signUpButton"
+        <EditText
+            android:id="@+id/editTextBussinesName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Registrarese" />
-
+            android:ems="10"
+            android:hint="Nombre de su negocio"
+            android:inputType="textPersonName" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
