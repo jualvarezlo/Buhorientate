@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1068662777607",
+    "project_id": "buhorientate-7b2f3",
+    "storage_bucket": "buhorientate-7b2f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068662777607:android:8169a3f8e894cda40647a2",
+        "android_client_info": {
+          "package_name": "com.example.buhorientate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068662777607-or1t3k6eaqu8q641jqsh61ntov5rsuh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh7bosjPcOC7oD61Ixku6qMpXYYF9lKvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068662777607-or1t3k6eaqu8q641jqsh61ntov5rsuh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
