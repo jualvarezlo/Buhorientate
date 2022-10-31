@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_provider_register.*
 
-class ProviderRegister : AppCompatActivity() {
+class VisitorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_provider_register)
@@ -12,7 +12,7 @@ class ProviderRegister : AppCompatActivity() {
     }
 
     private fun setup(){
-        title = "Registro vendedor"
+        title = "Registro visitante"
 
         var email = editTextEmailAddress.text
         var personalName = editTextPersonName.text
