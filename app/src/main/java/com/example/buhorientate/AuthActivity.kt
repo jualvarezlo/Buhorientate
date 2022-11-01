@@ -4,13 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_authentification.*
-import kotlinx.android.synthetic.main.activity_main.*
 
 class AuthActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,10 +20,9 @@ class AuthActivity : AppCompatActivity() {
 
     private fun setup() {
         title = "Autenticación"
-        val sendbutton = findViewById<Button>(R.id.visitante)
-        val sendbutton2 = findViewById<Button>(R.id.vendedor)
+
         signUpButton.setOnClickListener{
-            startActivity(Intent(this, UserActivity::class.java))
+            startActivity(Intent(this, ProviderRegister::class.java))
         }
     }
     private fun showAlert(){

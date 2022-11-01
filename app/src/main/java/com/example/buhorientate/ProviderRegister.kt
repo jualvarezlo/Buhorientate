@@ -12,7 +12,7 @@ class ProviderRegister : AppCompatActivity() {
     }
 
     private fun setup(){
-        title = "Registro vendedor"
+        title = "Registro proveedor"
 
         var email = editTextEmailAddress.text
         var personalName = editTextPersonName.text
