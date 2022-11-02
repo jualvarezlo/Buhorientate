@@ -38,11 +38,17 @@
             android:text="Acceder" />
 
         <Button
-            android:id="@+id/signUpButton"
+            android:id="@+id/signUpButtonP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Registrarese" />
+            android:text="Registrarme" />
+
+        <Button
+            android:id="@+id/bussinesSignUpbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar mi negocio" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
