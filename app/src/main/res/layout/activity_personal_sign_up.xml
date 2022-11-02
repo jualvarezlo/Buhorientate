@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProviderRegister">
+    tools:context=".PersonalSignUp">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -14,23 +14,7 @@
         tools:layout_editor_absoluteY="1dp">
 
         <EditText
-            android:id="@+id/editTextEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Correo Electronico"
-            android:inputType="textEmailAddress" />
-
-        <EditText
-            android:id="@+id/editTextPhone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Numero celular"
-            android:inputType="phone" />
-
-        <EditText
-            android:id="@+id/editTextPersonName"
+            android:id="@+id/editTextNameP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -38,11 +22,41 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextBussinesName"
+            android:id="@+id/editTextPhoneP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Nombre de su negocio"
-            android:inputType="textPersonName" />
+            android:hint="Numero celular"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editTextEmailAddressP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Correo Electronico"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPasswordP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextConfirmPasswordP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/signUpButtonP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarme" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
